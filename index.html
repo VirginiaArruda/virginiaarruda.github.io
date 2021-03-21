@@ -4,90 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio</title>
-    <style>
-
-        body {
-            background-color: #fcd2af;
-        } 
-
-        h1 {
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            color: #006d77;
-        }
-
-        p {
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            line-height: 1.4;
-            font-weight: bold;
-            
-        }
-
-        .hab-escuta {
-            font-size: 24px;
-        }
-
-        .hab-empatia {
-            font-size: 22px;
-        }
-
-        .hab-iniciativa {
-            font-size: 20px;
-        }
-
-        .hab-flexibilidade {
-            font-size: 18px;
-        }
-
-        .hab-colaboração {
-            font-size: 15px;
-        }
-
-        .hab-criatividade {
-            font-size: 12px;
-        }
-
-        .circled {
-            border-radius: 100%;
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Portfólio</title>
+    
 </head>
 
 <body>
-    <h1 id="name"><a href="#imagem">Virgínia Patrícia Oliveira de Arruda</a></h1>
+
+    <div class="menu">
+
+        <ul>             
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+                       
+        </ul>
+        
+        <div class="clear"></div>
+    </div>
+    <h1 id="name">Virgínia Arruda</h1>
     <br>
 
         
+    <div class="call"> 
+        <img  class="image" src="img1.jpg" alt="Foto Virgínia">
     
-    <img  class="circled" id="imagem" src="img1.jpg" alt="Foto Virgínia" width="200">
-    <br>
-    <p id="informaçoes"><em>Estudante de Desenvolvimento Web na Trybe. <br> Brasileira, de Recife - PE</em> 
+        <p class="description"><em>Estudante de Desenvolvimento Web. <br> <br>Brasileira, de Recife - PE</em> 
+    </div>
+        <div class="clear"></div>
 
-    
+    <div class="skills">
+
+    <h3>Habilidades:</h3>
+
     <ul>
-        <h3 id="skills">Habilidades</h3>
-
-        <li class="hab-escuta"><strong>Capacidade de escutar e rever pontos de vista;</strong></li>
+       
+        <li class="hab-escuta">Capacidade de escutar e rever pontos de vista;</li>
         <li class="hab-empatia">Responsabilidade, Confiabilidade e Empatia;</li>
-        <li class="hab-iniciativa">Capacidade de Organização, Iniciativa e Atenção ao detalhe<;/li>
+        <li class="hab-iniciativa">Capacidade de Organização, Iniciativa e Atenção ao detalhe;</li>
         <li class="hab-flexibilidade">Flexibilidade;</li>
         <li class="hab-colaboração">Colaboração;</li>
         <li class="hab-criatividade">Criatividade.</li>
 
     </ul>
-   
-    <a id="blog" href="https://ravel.com.br/blog/" target="_blank">Blog</a>
-
-        
-    <ol>
-        <li><a href="#name">Nome Completo</a></li>
-        <li><a href="#imagem">Foto</a></li>
-        <li><a href="#informaçoes">Descrição</a></li>
-        <li><a href="#skills">Habilidades</a></li>
-        <li><a href="#blog">Blog</a></li>
-
-    </ol>
+               
+</div>
 
 </body>
 </html>
